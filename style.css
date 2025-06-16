@@ -88,7 +88,7 @@
 }
 
 .hands{
-    background-image: url("/assets/triangle.png");
+    background-image: url("/public/triangle.png");
     background-repeat: no-repeat;
     width: 500px;
     height: 460px;
