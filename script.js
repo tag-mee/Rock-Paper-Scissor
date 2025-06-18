@@ -16,7 +16,7 @@ const pickkUserHand = (hand) => {
     contest.style.display = "flex";
 
     // Set the user pick
-    document.getElementById("userPickImg").src = `/assets/${hand}.png`;
+    document.getElementById("userPickImg").src = `/Rock_Paper_Scissors/public/${hand}.png`;
 
     let cpHand = pickComputerHand();
     gameOn(hand, cpHand);
@@ -27,7 +27,7 @@ const pickComputerHand = () => {
     let cpHand = hands[Math.floor(Math.random() * 3)];
 
     // Set comp pick
-    document.getElementById("compPickImg").src = `/assets/${cpHand}.png`;
+    document.getElementById("compPickImg").src = `/Rock_Paper_Scissors/public/${cpHand}.png`;
 
     return cpHand;
 };
